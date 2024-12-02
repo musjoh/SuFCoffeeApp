@@ -268,7 +268,6 @@ class CoffeeOrderApp:
         self.root.destroy()
         finish_screen = StartScreen(tk.Tk())
 
-
 class FinishScreen():
     def __init__(self, master, outputtext= ""):
         self.master = master
